@@ -22,7 +22,7 @@ exports.sendEmail=(req, res) => {
         if (error) {
             console.log(error);
         } else {
-            res.send("")
+            res.status(200).send(`<script>window.location.assign("http://localhost:3000/Contact")</script>`)
         }
     })
 };

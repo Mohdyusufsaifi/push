@@ -1,5 +1,5 @@
 * {
-    padding: 0px;
+    padding: 4px;
     margin: 0px;
 }
 
@@ -27,12 +27,20 @@ body {
     font-size: 50px;
     font-style: italic;
 }
+.new{
+    font-size:30px;
+    font-weight: bold;
+    font-style: arial;
+    font-family:'Comic Sans MS', cursive;
+    text-align:inherit;
+}
 
 .main{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    color: black;
 }
 
 .carousel-inner {
@@ -47,4 +55,25 @@ body {
     border: 3px solid white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
+}
+
+a {
+    cursor: pointer;
+  }
+
+.item, img{
+    height:80%;
+    width:50%;
+    border-radius: 25px;
+    align-items: center;
+
+}
+
+.Mannge{
+    height: 40%;
+    width:  60%;
+    border-radius: 25px;
+}
+.tex{
+    text-overflow: clip;
 }
