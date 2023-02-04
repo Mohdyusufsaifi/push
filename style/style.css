@@ -1,5 +1,5 @@
-* {
-    padding: 4px;
+*{
+    padding: 2.5px;
     margin: 0px;
 }
 
@@ -31,42 +31,43 @@ body {
     font-size:30px;
     font-weight: bold;
     font-style: arial;
-    font-family:'Comic Sans MS', cursive;
+    font-family:'Comic Sans MS';
     text-align:inherit;
 }
 
 .main{
-    text-align: center;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
     color: black;
 }
+.nav{
+    color: white;
+    font-size: large;
 
+}
 .carousel-inner {
     height: 400px;
     align-items: center;
 }
 
 .img1-circle {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     border: 3px solid white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
 
-a {
+.a{
     cursor: pointer;
-  }
+}
 
 .item, img{
-    height:80%;
+    height:70%;
     width:50%;
     border-radius: 25px;
-    align-items: center;
-
 }
 
 .Mannge{
@@ -76,4 +77,9 @@ a {
 }
 .tex{
     text-overflow: clip;
+}
+.schema-2{
+    height: 30%;
+    width:  20%;
+    border-radius: 25px;
 }
